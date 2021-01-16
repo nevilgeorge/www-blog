@@ -22,13 +22,7 @@ Built a client-side tool in React that allows ops to control and customize drive
 Wrote Python for the referrals backend service, and maintained 100% test coverage for the entire application.
 
 ## eecs dept, northwestern university
-### software engineer
-##### sept '14 - march '16
-Courses: Intro. to Computer Systems, Data Structures & Data Management, Intro. to Database Systems.
-Instructed discussion sections for over 40 students, held office hours, graded assignments/exams.
-
-## eecs dept, northwestern university
-### software engineer
+### undergraduate teaching assistant
 ##### sept '14 - march '16
 Courses: Intro. to Computer Systems, Data Structures & Data Management, Intro. to Database Systems.
 Instructed discussion sections for over 40 students, held office hours, graded assignments/exams.
@@ -38,7 +32,7 @@ Instructed discussion sections for over 40 students, held office hours, graded a
 ##### june '14 - aug '14
 Developed a tool to abstract site ads in JavaScript and PHP.
 Wrote unit tests for client-side JavaScript in Chai, Mocha and KarmaJS.
-Refactored over 10,000 lines of PHP to follow the factory design pattern.
+Refactored 10,000+ lines of PHP to follow internal software architecture requirements.
 
 ## shmoop university, inc
 ### software consultant
