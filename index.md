@@ -17,5 +17,5 @@ I'm interested in creating economic opportunity through technology, electronic m
 Find me on
 [LinkedIn](https://www.linkedin.com/in/nevilgeorge/){:target="_blank"},
 [Github](https://github.com/nevilgeorge){:target="_blank"}. Or
-[email](mailto:liven93@gmail.com){:target="_blank"}.
+[email](mailto:liven93@gmail.com){:target="_blank"}
 me.
