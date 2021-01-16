@@ -1,7 +1,9 @@
-$background-color: #DFD9E2;
-$text-color1: #522B47;
-$text-color2: #E54B4B;
-$text-color3: #507DBC;
+// Color scheme: https://coolors.co/01295f-f3ca40-517664-a23b72-eee5e9
+$lavender: #EEE5E9;
+$purple: #A23B72;
+$crayola: #F3CA40;
+$dark-blue: #01295F;
+$green: #517664;
 $font-size: 2em;
 $default-font: 'Ropa Sans', sans-serif;
 
@@ -9,7 +11,7 @@ body {
   font-family: $default-font !important;
   padding: 0;
   margin: 0;
-  background-color: $background-color;
+  background-color: $lavender;
 }
 
 div.main-body {
@@ -35,26 +37,25 @@ div.navbar {
             display: block;
             margin: 0 auto;
             text-align: center;
-            // font-family: $default-font;
             font-size: 25px;
-            color: $text-color1;
+            color: $purple;
             text-decoration: none;
             margin-top: 2%
           }
 
           a:hover {
             text-decoration: none;
-            color: $text-color3;
+            color: $dark-blue;
           }
 
           a:active {
             text-decoration: none;
-            color: $text-color2;
+            color: $dark-blue;
           }
 
           a.selected {
             text-decoration: none;
-            color: $text-color3;
+            color: $crayola;
           }
 
         }
@@ -71,11 +72,11 @@ div.main-content {
     font-size: large;
 
     h1 {
-        color: $text-color2;
+        color: $crayola;
     }
 
     p {
-        color: $text-color3;
+        color: $dark-blue;
         margin-top: 1%;
 
         a {
@@ -89,19 +90,19 @@ div#experience {
     h2 {
         margin-top: 2%;
         margin-bottom: 0;
-        color: $text-color1;
+        color: $purple;
     }
 
     h3 {
         margin-top: 0;
         margin-bottom: 0;
-        color: $text-color1;
+        color: $purple;
     }
 
     h5 {
         margin-top: 0;
         margin-bottom: 0;
-        color: $text-color1;
+        color: $purple;
     }
 
 }

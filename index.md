@@ -6,7 +6,9 @@ title: nevil george
 # nevil george
 Hi, I'm Nevil.
 
-I'm in my 5th year as a software engineer at Uber. I worked in the Maps domain in San Francisco first, and most recently I've been working in Payments.
+I'm in my 5th year as a software engineer at Uber.
+I spent my first 3 years working in the Maps domain in San Francisco,
+and the rest of my time in Payments.
 
 Prior to Uber, I was an engineering student at Northwestern.
 
