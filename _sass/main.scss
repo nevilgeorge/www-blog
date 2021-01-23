@@ -104,5 +104,32 @@ div#experience {
         margin-bottom: 0;
         color: $purple;
     }
+}
 
+div#readings {
+    .green-text {
+        color: $green;
+    }
+
+    ul {
+        margin-top: 7.5%;
+        list-style: square;    
+
+        li {
+            color: $dark-blue;
+            margin: 2%;
+
+            a {
+                color: inherit;
+            }
+
+            .reading-author {
+                font-size: 85%;
+            }
+
+            .reading-subtitle {
+                font-size: 95%;
+            }
+        }
+    }
 }
