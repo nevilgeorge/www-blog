@@ -7,10 +7,11 @@ permalink: /experience
 # experience
 
 ## uber technologies, inc
-### software engineer
+### senior software engineer
 ##### sept '16 - present
 2 years building an ML platform for ETA predictions, and a year building the next-gen routing engine for Uber.
-Then I moved to Amsterdam to work on the payments storage platform.
+Then I moved to Amsterdam to build the payments storage platform and migrate 2TB of
+user payment data.
 
 I enjoy deep platform challenges, and I'm especially interested in distributed systems and databases.
 

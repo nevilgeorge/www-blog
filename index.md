@@ -6,8 +6,8 @@ title: nevil george
 # nevil george
 Hi, I'm __Nevil__.
 
-I'm in my 5th year as a software engineer at __Uber__.
-I spent my first 3 years working in the Maps domain in San Francisco,
+This is my 5th year as a software engineer at __Uber__.
+I spent my first 3 years working in the Maps domain,
 and the rest of my time in Payments.
 
 Prior to Uber, I was an engineering student at __Northwestern__.
