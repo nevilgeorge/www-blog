@@ -11,7 +11,7 @@ permalink: /experience
 ##### sept '16 - present
 2 years building an ML platform for ETA predictions, and a year building the next-gen routing engine for Uber.
 Then I moved to Amsterdam to build the payments storage platform and migrate 2TB of
-user payment data.
+user payment data. Now, I work on merchant-facing pricing products for UberEats.
 
 I enjoy deep platform challenges, and I'm especially interested in distributed systems and databases.
 
