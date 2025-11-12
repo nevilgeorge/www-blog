@@ -1,14 +1,33 @@
-Jekyll-powered personal website/blog. The replaces nevilgeorge/www repo.
+SvelteKit-powered personal website/blog.
 
 # Development
+
 ### Start serving locally:
-```
-bundle exec jekyll serve
+```bash
+npm run dev
 ```
 
-### Creating a new page
-Create a .md file in the root folder. Set the layout, title,
-permalink in the front matter. Or, create a .html file with markup in the root folder.
+### Build for production:
+```bash
+npm run build
+```
 
-### Tutorial
-https://jekyllrb.com/docs/step-by-step/01-setup/
+### Preview production build:
+```bash
+npm run preview
+```
+
+### Deploy to GitHub Pages:
+
+1. Push your code to GitHub
+2. Go to your repository Settings → Pages
+3. Under "Source", select "GitHub Actions"
+4. The workflow will automatically deploy on every push to `main`
+
+# Project Structure
+
+- `src/routes/` - Page routes (SvelteKit file-based routing)
+- `src/lib/components/` - Reusable Svelte components
+- `src/lib/data/` - TypeScript data files
+- `src/lib/styles/` - Global CSS styles
+- `static/` - Static assets (CSS, images, etc.)

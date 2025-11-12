@@ -1,0 +1,419 @@
+export interface Reading {
+	author: string;
+	link: string;
+	title: string;
+	subtitle?: string;
+	great_read?: boolean;
+}
+
+export const readings: Reading[] = [
+	{
+		author: 'Katherine Boo',
+		link: 'https://www.goodreads.com/book/show/11869272-behind-the-beautiful-forevers',
+		title: 'Behind The Beautiful Forevers',
+		subtitle: 'Life, Death, and Hope in a Mumbai Undercity',
+		great_read: true
+	},
+	{
+		author: 'Junot Diaz',
+		link: 'https://www.goodreads.com/book/show/13503109-this-is-how-you-lose-her',
+		title: 'This Is How You Lose Her'
+	},
+	{
+		author: 'David Epstein',
+		link: 'https://www.goodreads.com/book/show/41795733-range',
+		title: 'Range',
+		subtitle: 'How Generalists Triumph in a Specialized World'
+	},
+	{
+		author: 'Matt Haig',
+		link: 'https://www.goodreads.com/book/show/52578297-the-midnight-library',
+		title: 'The Midnight Library'
+	},
+	{
+		author: 'Hermann Hesse',
+		link: 'https://www.goodreads.com/book/show/52036.Siddhartha',
+		title: 'Siddhartha'
+	},
+	{
+		author: 'Mihaly Csikszentmihalyi',
+		link: 'https://www.goodreads.com/book/show/66354.Flow',
+		title: 'Flow',
+		subtitle: 'The Psychology of Optimal Experience'
+	},
+	{
+		author: 'Khaled Hosseini',
+		link: 'https://www.goodreads.com/book/show/77203.The_Kite_Runner',
+		title: 'The Kite Runner',
+		great_read: true
+	},
+	{
+		author: 'Orhan Pamuk',
+		link: 'https://www.goodreads.com/book/show/2517.My_Name_Is_Red',
+		title: 'My Name Is Red'
+	},
+	{
+		author: 'bell hooks',
+		link: 'https://www.goodreads.com/book/show/17607.All_About_Love',
+		title: 'All About Love',
+		subtitle: 'New Visions'
+	},
+	{
+		author: 'Shoshana Zuboff',
+		link: 'https://www.goodreads.com/book/show/26195941-the-age-of-surveillance-capitalism',
+		title: 'The Age of Surveillance Capitalism',
+		great_read: true
+	},
+	{
+		author: 'Michael Chabon',
+		link: 'https://www.goodreads.com/book/show/26795307-moonglow',
+		title: 'Moonglow',
+		great_read: true
+	},
+	{
+		author: 'Dale Carnegie',
+		link: 'https://www.goodreads.com/book/show/4865.How_to_Win_Friends_and_Influence_People',
+		title: 'How To Win Friends and Influence People'
+	},
+	{
+		author: 'Robert B. Cialdini',
+		link: 'https://www.goodreads.com/book/show/28815.Influence',
+		title: 'Influence',
+		subtitle: 'The Psychology of Persuasion'
+	},
+	{
+		author: 'Nassim Nicholas Taleb',
+		link: 'https://www.goodreads.com/book/show/242472.The_Black_Swan',
+		title: 'The Black Swan'
+	},
+	{
+		author: 'Emily St. John Mandel',
+		link: 'https://www.goodreads.com/book/show/20170404-station-eleven',
+		title: 'Station Eleven'
+	},
+	{
+		author: 'Isabel Wilkerson',
+		link: 'https://www.goodreads.com/book/show/8171378-the-warmth-of-other-suns',
+		title: 'The Warmth of Other Suns',
+		great_read: true
+	},
+	{
+		author: 'Colson Whitehead',
+		link: 'https://www.goodreads.com/book/show/42270835-the-nickel-boys?from_search=true&from_srp=true&qid=jKHymZwHjB&rank=1',
+		title: 'The Nickel Boys',
+		great_read: true
+	},
+	{
+		author: 'Steven Levitsky & Daniel Ziblatt',
+		link: 'https://www.goodreads.com/book/show/35356384-how-democracies-die',
+		title: 'How Democracies Die',
+		subtitle: 'What History Reveals About Our Future',
+		great_read: true
+	},
+	{
+		author: 'Lisa Ko',
+		link: 'https://www.goodreads.com/book/show/30753987-the-leavers',
+		title: 'The Leavers'
+	},
+	{
+		author: 'Barack Obama',
+		link: 'https://www.goodreads.com/book/show/88061.Dreams_from_My_Father',
+		title: 'Dreams From My Father'
+	},
+	{
+		author: 'Celeste Ng',
+		link: 'https://www.goodreads.com/book/show/18693763-everything-i-never-told-you',
+		title: 'Everything I Never Told You'
+	},
+	{
+		author: 'Donna Tartt',
+		link: 'https://www.goodreads.com/book/show/17333223-the-goldfinch',
+		title: 'The Goldfinch'
+	},
+	{
+		author: 'Robert Caro',
+		link: 'https://www.goodreads.com/book/show/1111.The_Power_Broker',
+		title: 'The Power Broker',
+		subtitle: 'Robert Moses and the Fall of New York'
+	},
+	{
+		author: 'Adam Tooze',
+		link: 'https://www.goodreads.com/book/show/36950522-crashed',
+		title: 'Crashed',
+		subtitle: 'How a Decade of Financial Crises Changed the World',
+		great_read: true
+	},
+	{
+		author: 'Italo Calvino',
+		link: 'https://www.goodreads.com/book/show/9809.Invisible_Cities',
+		title: 'Invisible Cities'
+	},
+	{
+		author: 'Rebecca Solnit',
+		link: 'https://www.goodreads.com/book/show/76479.A_Field_Guide_to_Getting_Lost',
+		title: 'A Field Guide To Getting Lost'
+	},
+	{
+		author: 'Jonathan Franzen',
+		link: 'https://www.goodreads.com/book/show/3805.The_Corrections',
+		title: 'The Corrections'
+	},
+	{
+		author: 'Ocean Vuong',
+		link: 'https://www.goodreads.com/book/show/41880609-on-earth-we-re-briefly-gorgeous',
+		title: "On Earth We're Briefly Gorgeous"
+	},
+	{
+		author: 'Jhumpa Lahiri',
+		link: 'https://www.goodreads.com/book/show/33917.The_Namesake',
+		title: 'The Namesake',
+		great_read: true
+	},
+	{
+		author: 'Viktor Frankl',
+		link: 'https://www.goodreads.com/book/show/4069.Man_s_Search_for_Meaning',
+		title: "Man's Search For Meaning"
+	},
+	{
+		author: 'Leah Franqui',
+		link: 'https://www.goodreads.com/book/show/35098009-america-for-beginners',
+		title: 'America For Beginners'
+	},
+	{
+		author: 'Cixin Liu',
+		link: 'https://www.goodreads.com/book/show/20518872-the-three-body-problem',
+		title: 'The Three-Body Problem'
+	},
+	{
+		author: 'Jhumpa Lahiri',
+		link: 'https://www.goodreads.com/book/show/5439.Interpreter_of_Maladies',
+		title: 'Interpreter of Maladies',
+		great_read: true
+	},
+	{
+		author: 'Alain De Botton',
+		link: 'https://www.goodreads.com/book/show/43264830-the-school-of-life',
+		title: 'The School of Life',
+		subtitle: 'An Emotional Education'
+	},
+	{
+		author: 'Ichiro Kishimi, Fumitake Koga',
+		link: 'https://www.goodreads.com/book/show/43306206-the-courage-to-be-disliked',
+		title: 'The Courage To Be Disliked'
+	},
+	{
+		author: 'Richard Powers',
+		link: 'https://www.goodreads.com/book/show/40180098-the-overstory',
+		title: 'Overstory'
+	},
+	{
+		author: 'Cal Newport',
+		link: 'https://www.goodreads.com/book/show/25744928-deep-work',
+		title: 'Deep Work'
+	},
+	{
+		author: 'Brian Little',
+		link: 'https://www.goodreads.com/book/show/22512853-me-myself-and-us',
+		title: 'Me, Myself and Us'
+	},
+	{
+		author: 'Anand Giridharadas',
+		link: 'https://www.goodreads.com/book/show/37506348-winners-take-all',
+		title: 'Winner Takes All',
+		subtitle: 'The Elite Charade of Changing the World'
+	},
+	{
+		author: 'Thich Nhat Hanh',
+		link: 'https://www.goodreads.com/book/show/20693512-true-love',
+		title: 'True Love'
+	},
+	{
+		author: 'Joseph Campbell',
+		link: 'https://www.goodreads.com/book/show/588138.The_Hero_With_a_Thousand_Faces',
+		title: 'The Hero With A Thousand Faces'
+	},
+	{
+		author: 'Tara Westover',
+		link: 'https://www.goodreads.com/book/show/35133922-educated',
+		title: 'Educated'
+	},
+	{
+		author: 'John Doerr',
+		link: 'https://www.goodreads.com/book/show/39286958-measure-what-matters',
+		title: 'Measure What Matters'
+	},
+	{
+		author: 'Delia Owens',
+		link: 'https://www.goodreads.com/book/show/36809135-where-the-crawdads-sing?ac=1&from_search=true&qid=rVOCalCI7V&rank=1',
+		title: 'Where The Crawdads Sing'
+	},
+	{
+		author: 'Trevor Noah',
+		link: 'https://www.goodreads.com/book/show/29780253-born-a-crime',
+		title: 'Born A Crime',
+		subtitle: 'Stories From a South African Childhood'
+	},
+	{
+		author: 'Russell Shorto',
+		link: 'https://www.goodreads.com/book/show/17288660-amsterdam?from_search=true',
+		title: 'Amsterdam',
+		subtitle: "A History of the World's Most Liberal City"
+	},
+	{
+		author: 'Yuval Noah Harari',
+		link: 'https://www.goodreads.com/book/show/23692271-sapiens?from_search=true',
+		title: 'Sapiens',
+		great_read: true
+	},
+	{
+		author: 'David Talbot',
+		link: 'https://www.goodreads.com/book/show/12352452-season-of-the-witch?from_search=true',
+		title: 'Season of the Witch'
+	},
+	{
+		author: 'Chloe Benjamin',
+		link: 'https://www.goodreads.com/book/show/30288282-the-immortalists?from_search=true',
+		title: 'The Immortalists'
+	},
+	{
+		author: 'Shashi Tharoor',
+		link: 'https://www.goodreads.com/book/show/34185892-inglorious-empire?from_search=true',
+		title: 'Inglorious Empire'
+	},
+	{
+		author: 'Kazuo Ishiguro',
+		link: 'https://www.goodreads.com/book/show/22522805-the-buried-giant?from_search=true',
+		title: 'The Buried Giant'
+	},
+	{
+		author: 'Mortimer J. Adler, Charles Van Doren',
+		link: 'https://www.goodreads.com/book/show/567610.How_to_Read_a_Book?from_search=true',
+		title: 'How To Read A Book'
+	},
+	{
+		author: 'Brad Stone',
+		link: 'https://www.goodreads.com/book/show/17660462-the-everything-store',
+		title: 'The Everything Store'
+	},
+	{
+		author: 'Yuval Noah Harari',
+		link: 'https://www.goodreads.com/book/show/31138556-homo-deus',
+		title: 'Home Deus'
+	},
+	{
+		author: 'John Carreyrou',
+		link: 'https://www.goodreads.com/book/show/37976541-bad-blood',
+		title: 'Bad Blood'
+	},
+	{
+		author: 'Arundhati Roy',
+		link: 'https://www.goodreads.com/book/show/9777.The_God_of_Small_Things?ac=1',
+		title: 'The God of Small Things'
+	},
+	{
+		author: 'Sudhir Venkatesh',
+		link: 'https://www.goodreads.com/book/show/1491906.Gang_Leader_for_a_Day?ac=1&from_search=true',
+		title: 'Gang Leader for a Day'
+	},
+	{
+		author: 'Michelle McNamara',
+		link: 'https://www.goodreads.com/book/show/35068432-i-ll-be-gone-in-the-dark?ac=1&from_search=true',
+		title: "I'll Be Gone In The Dark"
+	},
+	{
+		author: 'Hanya Yanagihara',
+		link: 'https://www.goodreads.com/book/show/22822858-a-little-life?ac=1',
+		title: 'A Little Life',
+		great_read: true
+	},
+	{
+		author: 'Angela Duckworth',
+		link: 'https://www.goodreads.com/book/show/27213329-grit?ac=1&from_search=true',
+		title: 'Grit'
+	},
+	{
+		author: 'Min Jin Lee',
+		link: 'https://www.goodreads.com/book/show/34051011-pachinko?ac=1&from_search=true',
+		title: 'Pachinko',
+		great_read: true
+	},
+	{
+		author: 'Mark Manson',
+		link: 'https://www.goodreads.com/book/show/28257707-the-subtle-art-of-not-giving-a-f-ck?ac=1&from_search=true',
+		title: 'The Subtle Art of Not Giving a F*ck'
+	},
+	{
+		author: 'Greg McKeown',
+		link: 'https://www.goodreads.com/book/show/18077875-essentialism',
+		title: 'Essentialism',
+		great_read: true
+	},
+	{
+		author: 'Jennifer Egan',
+		link: 'https://www.goodreads.com/book/show/34467031-manhattan-beach',
+		title: 'Manhattan Beach'
+	},
+	{
+		author: 'Helen Macdonald',
+		link: 'https://www.goodreads.com/book/show/18803640-h-is-for-hawk',
+		title: 'H is for Hawk'
+	},
+	{
+		author: 'Chimamanda Ngozi Adichie',
+		link: 'https://www.goodreads.com/book/show/15796700-americanah',
+		title: 'Americanah',
+		great_read: true
+	},
+	{
+		author: 'Atul Gawande',
+		link: 'https://www.goodreads.com/book/show/20696006-being-mortal',
+		title: 'Being Mortal'
+	},
+	{
+		author: 'Jesmyn Ward',
+		link: 'https://www.goodreads.com/book/show/32920226-sing-unburied-sing?ac=1&from_search=true',
+		title: 'Sing, Unburied, Sing'
+	},
+	{
+		author: 'Emily Chang',
+		link: 'https://www.goodreads.com/book/show/36288143-brotopia',
+		title: 'Brotopia'
+	},
+	{
+		author: 'J.D Vance',
+		link: 'https://www.goodreads.com/book/show/27161156-hillbilly-elegy',
+		title: 'Hillbilly Elegy'
+	},
+	{
+		author: 'Adam Johnson',
+		link: 'https://www.goodreads.com/book/show/11529868-the-orphan-master-s-son',
+		title: "The Orphan Master's Son"
+	},
+	{
+		author: 'Marshall B. Rosenberg',
+		link: 'https://www.goodreads.com/book/show/71730.Nonviolent_Communication',
+		title: 'Nonviolent Communication'
+	},
+	{
+		author: 'Phil Knight',
+		link: 'https://www.goodreads.com/book/show/27220736-shoe-dog',
+		title: 'Shoe Dog'
+	},
+	{
+		author: 'Michael Chabon',
+		link: 'https://www.goodreads.com/book/show/3985.The_Amazing_Adventures_of_Kavalier_Clay',
+		title: 'The Amazing Adventures of Kavalier & Clay'
+	},
+	{
+		author: 'Siddhartha Mukherjee',
+		link: 'https://www.goodreads.com/book/show/7170627-the-emperor-of-all-maladies',
+		title: 'The Emperor of All Maladies',
+		great_read: true
+	},
+	{
+		author: 'Paul Beatty',
+		link: 'https://www.goodreads.com/book/show/22237161-the-sellout',
+		title: 'The Sellout'
+	}
+];
+
